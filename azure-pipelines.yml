@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  pool: Default
+  agentpool: Default
 
 steps:
 - task: Maven@3
